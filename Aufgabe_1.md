@@ -21,7 +21,7 @@ In der UB Kaiserslautern fallen an vielen Stellen Daten an, die aufgrund ihrer G
 
 # Aufgabe MALIS 21.3 WPM_T9.1: Data Science / Data Librarianship / IT-Praxis
 
-## Beschreibung von datenintensiven und datenfokussierten Aktivitäten im eignen Arbeitsalltag / in der eigenen Institution
+## Beschreibung von datenintensiven und datenfokussierten Aktivitäten im eigenen Arbeitsalltag / in der eigenen Institution
 
 **Aufgabenstellung**
 * Tragen Sie zusammen, welche Prozesse in Ihrer Institution datenintensiv und/oder datenfokussiert sind. Dies kann zum Beispiel die Pflege von Metadaten oder Forschungdatenmanagement sein.
