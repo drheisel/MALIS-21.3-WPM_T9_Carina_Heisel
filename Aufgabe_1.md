@@ -31,7 +31,7 @@ In der UB Kaiserslautern fallen an vielen Stellen Daten an, die aufgrund ihrer G
 * Umfang: 1000 – 1500 Wörter (exklusive Quellenverweise)
 
 **Termin und Aufgabentyp**
-* Samstag 21.05.2022 21:00
+* Samstag 21.05.2022 21:00 Uhr
 * Tandem-Aufgabe
 * Abgabe durch Einsenden eines Links zu einem offen GitHub-Repositorium oder durch Einladen zu deinem privaten Repositoriums (Nutzername: „konrad“)
 
