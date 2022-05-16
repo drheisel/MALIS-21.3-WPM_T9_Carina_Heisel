@@ -22,7 +22,26 @@ In meinem Berufsalltag als Fachreferentin sind vor allem die Etat- und Revisions
 
 ## Revisionslisten
 
-Eine Revisionsliste ist eine vollständige Liste des aktuellen Bestandes. Sie enthält alle physischen Medien einer Signaturengruppe (z. B. PHY für Physik) mit zahlreichen zugehörigen Informationen.
+Eine Revisionsliste ist eine vollständige Liste des aktuellen Bestandes. Sie enthält alle physischen Medien einer Signaturengruppe mit zahlreichen zugehörigen Informationen.\
+Als wichtigste Informationen sind hier zu nennen:
+- die eindeutige Signatur, die wie folgt aufgebaut ist: XXX aaa/bbb mit\
+  XXX = Signaturengruppe (z. B. PHY für Physik)\
+  aaa = Fachgruppe, Zahl zwischen 000 und 999\
+	bbb = fortlaufende Nummer, Zahl zwischen 000 und 999
+- Autor*in, Titel
+- Auflage und ISBN
+- Erscheinungsjahr und Jahr des Zugangs
+- Vormerkungen (insgesamt und in den letzten beiden Jahren)
+- Ausleihzahlen (insgesamt, in den letzten 1/2/5 Jahren)
+- letztes Ausleih- und Rückgabedatum
+
+Die Informationen werden als CSV-Datei zur Verfügung gestellt. Um Sortier-, Filter- und Rechenfunktionen auf die Daten anwenden zu können, importiere ich die CSV zunächst in eine Excel-Tabelle, wandle sie also in eine XLSX um.
+Der Import erfordert einiges an Einstellungen und Nacharbeiten, um die Liste anschließend fehlerfrei weiterbearbeiten zu können. So sind die einzelnen Einträge z. B. nicht tabulatorgetrennt, sondern mit einer Tilde (~). Zudem sind Unmengen von Leerzeichen enthalten, die vorab entfernt werden müssen, da Zahlen ansonsten als Text fehlinterpretiert werden. Außerdem muss die Zeichenkodierung korrekt eingestellt werden, um Umlaute korrekt wiederzugeben.
+
+##### Verbesserungsmöglichkeiten
+
+
+
 
 ### Kauf von eBooks und Neuauflagen aufgrund hoher Ausleihzahlen
 
