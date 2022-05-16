@@ -32,15 +32,17 @@ Als wichtigste Informationen sind hier zu nennen:
 - Auflage und ISBN
 - Erscheinungsjahr und Jahr des Zugangs
 - Vormerkungen (insgesamt und in den letzten beiden Jahren)
-- Ausleihzahlen (insgesamt, in den letzten 1/2/5 Jahren)
+- Ausleihzahlen (insgesamt und in den letzten 1/2/5 Jahren)
 - letztes Ausleih- und Rückgabedatum
 
 Die Informationen werden als CSV-Datei zur Verfügung gestellt. Um Sortier-, Filter- und Rechenfunktionen auf die Daten anwenden zu können, importiere ich die CSV zunächst in eine Excel-Tabelle, wandle sie also in eine XLSX um.
-Der Import erfordert einiges an Einstellungen und Nacharbeiten, um die Liste anschließend fehlerfrei weiterbearbeiten zu können. So sind die einzelnen Einträge z. B. nicht tabulatorgetrennt, sondern mit einer Tilde (~). Zudem sind Unmengen von Leerzeichen enthalten, die vorab entfernt werden müssen, da Zahlen ansonsten als Text fehlinterpretiert werden. Außerdem muss die Zeichenkodierung korrekt eingestellt werden, um Umlaute korrekt wiederzugeben.
+Der Import erfordert einiges an Einstellungen und Nacharbeiten, um die Liste anschließend fehlerfrei weiterbearbeiten zu können. So sind die einzelnen Einträge z. B. nicht tabulatorgetrennt, sondern mit einer Tilde (~) separiert. Zudem sind Unmengen von Leerzeichen enthalten, die vorab entfernt werden müssen, da Zahlen ansonsten als Text fehlinterpretiert werden. Außerdem muss die Zeichenkodierung richtig eingestellt werden, um Umlaute korrekt wiederzugeben.
 
 ##### Verbesserungsmöglichkeiten
 
+Eine potentielle Verbesserungsmöglichkeit für die Revisionslisten liegt im Format der bereitgestellten CSV-Datei. Die einzelnen Schritte beim Import in Excel ließen sich vermeiden, wenn die Werte der CSV tabulatorgetrennt wären, die führenden Leerzeichen vor Zahlenangaben (bei Vormerkungen und Ausleihzahlen) gar nicht erst da wären und die Zeichenkodierung so wäre, dass Excel sofort etwas damit anfangen kann.
 
+Diese Punkte stehen auf der ToDo-Liste für das nächste zu programmierende Revisionslisten-Extraktionstool. Da die UB noch diesen Sommer von Aleph auf ALMA umsteigen wird, wird das aktuelle Tool nicht mehr angepasst werden.
 
 
 ### Kauf von eBooks und Neuauflagen aufgrund hoher Ausleihzahlen
