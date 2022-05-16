@@ -4,6 +4,11 @@ WPM T9 Lösungen
 
 *von Carina Heisel*
 
+
+
+
+
+
 ---
 
 # Aufgabe MALIS 21.3 WPM_T9.1: Data Science / Data Librarianship / IT-Praxis
@@ -30,7 +35,9 @@ Tandempartner
 Arbeitens), allerdings keine besondere Formatierung nötig.
 
 **Arbeitsbelastung**
+
 24 Stunden
 
 **Anteil an der Modulnote**
+
 30 %
