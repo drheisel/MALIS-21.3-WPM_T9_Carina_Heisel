@@ -1,5 +1,9 @@
 # Beschreibung von datenintensiven und datenfokussierten Aktivitäten im eigenen Arbeitsalltag / in der eigenen Institution
 
+*Carina Heisel*
+
+*Mai 2022*
+
 In der UB Kaiserslautern fallen an vielen Stellen Daten an, die aufgrund ihrer Größe und Komplexität idealerweise automatisiert mit Skripten verarbeitet werden.
 
 ## In der Institution UB:
