@@ -12,7 +12,9 @@
 	- [Kauf von eBooks aufgrund hoher Ausleihzahlen](#kauf-von-ebooks-aufgrund-hoher-ausleihzahlen)
 	- [Hochrechnung von Fachbereichsetats](#hochrechnung-von-fachbereichsetats)
 
-In der UB Kaiserslautern fallen an vielen Stellen Daten an, die aufgrund ihrer Größe und Komplexität idealerweise automatisiert mit Skripten verarbeitet werden.
+In der Universitätsbibliothek (UB) der Technischen Universität Kaiserslautern (TUK) fallen an vielen Stellen Daten an, die aufgrund ihrer Größe und Komplexität idealerweise automatisiert mit Skripten o. ä. verarbeitet werden. Bei vielen dieser Daten geschieht dies bereits weitestgehend automatisiert. Klassische Beispiele für solche Prozesse sind z. B. der Betrieb und die Pflege zentraler Systeme wie Bibliothekskatalog (*Aleph*), Discoverysystem (*VuFind*)[^1], Dokumentenserver (*KLUEDO*)[^2] und elektronische Tauschbörse (*ELTAB*)[^3].
+
+An einigen Stellen ist trotz Teilautomatisierung noch einiges an "Handarbeit" notwendig.
 
 ## In der Institution UB:
 
@@ -30,3 +32,7 @@ In der UB Kaiserslautern fallen an vielen Stellen Daten an, die aufgrund ihrer G
 
 ### Hochrechnung von Fachbereichsetats
 
+
+[^1] https://kplus.ub.uni-kl.de
+[^2] https://kluedo.ub.uni-kl.de
+[^3] https://eltab.ub.uni-kl.de
