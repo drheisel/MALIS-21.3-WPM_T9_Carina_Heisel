@@ -40,14 +40,27 @@ Der Import erfordert einiges an Einstellungen und Nacharbeiten, um die Liste ans
 
 ##### Verbesserungsmöglichkeiten
 
-Eine potentielle Verbesserungsmöglichkeit für die Revisionslisten liegt im Format der bereitgestellten CSV-Datei. Die einzelnen Schritte beim Import in Excel ließen sich vermeiden, wenn die Werte der CSV tabulatorgetrennt wären, die führenden Leerzeichen vor Zahlenangaben (bei Vormerkungen und Ausleihzahlen) gar nicht erst da wären und die Zeichenkodierung so wäre, dass Excel sofort etwas damit anfangen kann.
+Eine potenzielle Verbesserungsmöglichkeit für die Revisionslisten liegt im Format der bereitgestellten CSV-Datei. Die einzelnen Schritte beim Import in Excel ließen sich vermeiden, wenn die Werte der CSV tabulatorgetrennt wären, die führenden Leerzeichen vor Zahlenangaben (bei Vormerkungen und Ausleihzahlen) gar nicht erst da wären und die Zeichenkodierung so wäre, dass Excel sofort etwas damit anfangen kann.
 
 Diese Punkte stehen auf der ToDo-Liste für das nächste zu programmierende Revisionslisten-Extraktionstool. Da die UB noch diesen Sommer von Aleph auf ALMA umsteigen wird, wird das aktuelle Tool nicht mehr angepasst werden.
 
 
 ### Kauf von eBooks und Neuauflagen aufgrund hoher Ausleihzahlen
 
+Wird ein Medium oft ausgeliehen oder ist es sogar ständig vergriffen und wird daher oft vorgemerkt, müssen weitere Exemplare angeschafft werden.
+
+Wie finde ich das heraus?
+- Anzahl der Vormerkungen in den letzten 2 Jahren
+- Ausleihzahlen im letzten Jahr
+
+Tendenz zu eBooks, da Digitalisierung
+
 ##### Verbesserungsmöglichkeiten
+
+Zur Zeit überprüfe ich die Revisionsliste händisch auf "beliebte" Medien. Dabei wäre es möglich, diesen Prozess mit einer relativ einfachen Programmierung zu automatisieren.
+- Schwelle für Ausleihen im letzten Jahr festlegen
+- Schwelle für Vormerkungen (2J) festlegen
+- Bei Überschreiten eines der Werte wird eine Markierung gesetzt (Excel) oder eine Ausgabe erzeugt (Shell)
 
 
 ### Aussondern von ungenutzter und inaktueller Literatur
