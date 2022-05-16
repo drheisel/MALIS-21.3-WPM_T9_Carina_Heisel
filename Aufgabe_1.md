@@ -86,7 +86,19 @@ Dennoch kann der Prozess auch hier vereinfacht oder abgekürzt werden. Anhand de
 
 ## Etatlisten
 
+Wird als HTML ausgeliefert.
+Wird in Excel weiterverarbeitet.
+Importprozess mit ähnlichen Hürden wie im Fall der Revisionslisten:
+- Zahlen haben "." statt "," als Dezimaltrenner
+- Excel macht ein Datum aus einstelligen Geldbeträgen :rage:
 
 ### Hochrechnung von Fachbereichsetats
 
+Jedes Quartal fällig\
+Muss für jeden Fachbereich erstellt werden
+
 ##### Verbesserungsmöglichkeiten
+
+Es sind die immer gleichen Schritte auszuführen, daher liegt eine Automatisierung durch ein Skript nahe.\
+Eine Auslieferung als CSV statt HTML wäre hilfreich, konnte aber bisher noch nicht umgesetzt werden.\
+Anpassung nach ALMA-Umstellung
