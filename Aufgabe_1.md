@@ -65,7 +65,23 @@ Zur Zeit überprüfe ich die Revisionsliste händisch auf "beliebte" Medien. Dab
 
 ### Aussondern von ungenutzter und inaktueller Literatur
 
+Das Aussondern von ungenutzter und inaktueller Literatur ist etwas komplizierter gelagert als im Fall der beliebten Medien.\
+Kriterien, die hierzu herangezogen werden, sind:
+1. keine Ausleihen in den letzten 5 Jahren
+2. keine Vormerkungen in den letzten 2 Jahren
+3. letzte Rückgabe länger als 10 Jahre her
+4. Medium älter als 20 Jahre oder Themengebiet ändert sich schnell (z. B. Informatikthemen)
+
+Außerdem sind folgende Punkte zu beachten:
+- Wie viele Exemplare haben wir mit der gleichen Signatur? Wie sind die Ausleihzahlen der anderen Medien?
+- Welche Auflagen haben wir von dem Medium? Wie viele Jahre liegen zwischen der aktuellsten und den vorherigen Auflagen?
+- Steht das Medium im Semesterapparat und ist deshalb auf jeden Fall vorzuhalten?
+
+Bei der Aussonderung läuft es meist auf eine Individualentscheidung hinaus, in die zudem auch Erfahrungswissen und ggf. Rücksprachen mit Lehrstühlen einfließen. Hier ist eine Automatisierung schwer bis gar nicht umsetzbar.
+
 ##### Verbesserungsmöglichkeiten
+
+Dennoch kann der Prozess auch hier vereinfacht oder abgekürzt werden. Anhand der oben genannten Kriterien Nr. 1 – 3 könnte eine Liste erstellt werden, die in bestimmten Zeitabständen überprüft und als Einstieg für Aussonderungsentscheidungen genutzt werden kann. Als Grundlage für die Programmierung kann eine angepasste Version der "beliebte Medien"-Liste dienen.
 
 
 ## Etatlisten
