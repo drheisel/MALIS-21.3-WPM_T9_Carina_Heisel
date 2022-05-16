@@ -33,6 +33,6 @@ An einigen Stellen ist trotz Teilautomatisierung noch einiges an "Handarbeit" no
 ### Hochrechnung von Fachbereichsetats
 
 
-[^1] https://kplus.ub.uni-kl.de
-[^2] https://kluedo.ub.uni-kl.de
-[^3] https://eltab.ub.uni-kl.de
+[^1]: https://kplus.ub.uni-kl.de
+[^2]: https://kluedo.ub.uni-kl.de
+[^3]: https://eltab.ub.uni-kl.de
