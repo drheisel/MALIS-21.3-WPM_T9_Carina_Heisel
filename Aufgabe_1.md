@@ -2,6 +2,9 @@
 
 *Carina Heisel, Kaiserslautern, Mai 2022*
 
+
+## Überblick
+
 In der Universitätsbibliothek (UB) der Technischen Universität Kaiserslautern (TUK) fallen an vielen Stellen Daten an, die aufgrund ihrer Menge und Komplexität idealerweise automatisiert mit Skripten o. ä. verarbeitet werden. Bei vielen dieser Daten geschieht dies bereits weitestgehend automatisiert. Klassische Beispiele für solche Prozesse sind z. B. der Betrieb und die Pflege zentraler Systeme wie **Bibliothekskatalog** (*Aleph*), **Discoverysystem** (*VuFind*)[^1], **Dokumentenserver** (*KLUEDO*)[^2] und **elektronische Tauschbörse** (*ELTAB*)[^3].
 
 [^1]: https://kplus.ub.uni-kl.de
@@ -14,19 +17,24 @@ Die IT-Abteilung der UB hat mehrere CronJobs (periodisch wiederkehrende Aufgaben
 - Jede Nacht wird eine tagesaktuelle **Revisionsliste** pro Signaturengruppe erzeugt.
 - Außerdem werden einmal pro Nacht alle **Etatlisten** aktualisiert, sodass diese für jeden Etat tagesaktuell abrufbar sind.
 
-Für Fachreferent*innen sind vor allem die Etat- und Revisionslisten wichtig für den Berufsalltag.
+In meinem Berufsalltag als Fachreferentin sind vor allem die Etat- und Revisionslisten wichtig. Anhand der Etatlisten treffe ich Kaufentscheidungen und erstelle Hochrechnungen für die einzelnen Fachbereiche der TUK. Die Revisionslisten nutze ich vorrangig, um einen Überblick über Ausleihzahlen und Aktualität der Literatur zu bekommen. Daraus leite ich dann Kaufentscheidungen und Aussonderungen ab.
 
-## Revisionsliste
+
+## Revisionslisten
+
+
+### Kauf von eBooks und Neuauflagen aufgrund hoher Ausleihzahlen
+
+##### Verbesserungsmöglichkeiten
+
 
 ### Aussondern von ungenutzter und inaktueller Literatur
 
 ##### Verbesserungsmöglichkeiten
 
-### Kauf von eBooks aufgrund hoher Ausleihzahlen
 
-##### Verbesserungsmöglichkeiten
+## Etatlisten
 
-## Etatliste
 
 ### Hochrechnung von Fachbereichsetats
 
