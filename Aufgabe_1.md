@@ -16,6 +16,7 @@ In der UB Kaiserslautern fallen an vielen Stellen Daten an, die aufgrund ihrer G
 
 ### Kauf von eBooks aufgrund hoher Ausleihzahlen
 
+### Hochrechnung von Fachbereichsetats
 
 ---
 
