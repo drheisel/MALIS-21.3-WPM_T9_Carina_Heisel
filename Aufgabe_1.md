@@ -17,11 +17,12 @@ Die IT-Abteilung der UB hat mehrere CronJobs (periodisch wiederkehrende Aufgaben
 - Jede Nacht wird eine tagesaktuelle **Revisionsliste** pro Signaturengruppe erzeugt.
 - Außerdem werden einmal pro Nacht alle **Etatlisten** aktualisiert, sodass diese für jeden Etat tagesaktuell abrufbar sind.
 
-In meinem Berufsalltag als Fachreferentin sind vor allem die Etat- und Revisionslisten wichtig. Anhand der *Etatlisten* treffe ich **Kaufentscheidungen** und erstelle **Hochrechnungen** für die einzelnen Fachbereiche der TUK. Die *Revisionslisten* nutze ich vorrangig, um einen Überblick über **Ausleihzahlen** und **Aktualität** der Literatur zu bekommen. Daraus leite ich dann **Kaufentscheidungen** und **Aussonderungen** ab.
+In meinem Berufsalltag als Fachreferentin sind vor allem die Etat- und Revisionslisten ein wichtiges Werkzeug. Anhand der *Etatlisten* treffe ich **Kaufentscheidungen** und erstelle **Hochrechnungen** für die einzelnen Fachbereiche der TUK. Die *Revisionslisten* nutze ich vorrangig, um einen Überblick über **Ausleihzahlen** und **Aktualität** der Literatur zu bekommen. Daraus leite ich dann **Kaufentscheidungen** und **Aussonderungen** ab.
 
 
 ## Revisionslisten
 
+Eine Revisionsliste ist eine vollständige Liste des aktuellen Bestandes. Sie enthält alle physischen Medien einer Signaturengruppe (z. B. PHY für Physik) mit zahlreichen zugehörigen Informationen.
 
 ### Kauf von eBooks und Neuauflagen aufgrund hoher Ausleihzahlen
 
