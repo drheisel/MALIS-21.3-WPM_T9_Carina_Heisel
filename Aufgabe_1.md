@@ -1,6 +1,6 @@
 # Beschreibung von datenintensiven und datenfokussierten Aktivitäten im eigenen Arbeitsalltag / in der eigenen Institution
 
-*Carina Heisel, Mai 2022*
+*Carina Heisel, Kaiserslautern, Mai 2022*
 
 **Inhaltsverzeichnis**
 - [In der Institution UB:](#in-der-institution-ub)
