@@ -4,12 +4,9 @@ WPM T9 Lösungen
 
 *von Carina Heisel*
 
-
-
-
-
-
 ---
+
+Aufgabenstellung Aufgabe 1
 
 # Aufgabe MALIS 21.3 WPM_T9.1: Data Science / Data Librarianship / IT-Praxis
 
