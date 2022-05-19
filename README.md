@@ -2,12 +2,12 @@
 
 Wahlpflichtmodul T9 - Lösungen
 
-*von Carina Heisel*
-*im Mai 2022*
+*von Carina Heisel* 
+*Mai 2022*
 
 ---
 
-#Aufgabenstellung Aufgabe 1
+# Aufgabenstellung Aufgabe 1
 
 ## Aufgabe MALIS 21.3 WPM_T9.1: Data Science / Data Librarianship / IT-Praxis
 
