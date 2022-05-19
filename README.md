@@ -1,16 +1,17 @@
 # MALIS-21.3-WPM_T9_Carina_Heisel
 
-WPM T9 Lösungen
+Wahlpflichtmodul T9 - Lösungen
 
 *von Carina Heisel*
+*im Mai 2022*
 
 ---
 
-Aufgabenstellung Aufgabe 1
+#Aufgabenstellung Aufgabe 1
 
-# Aufgabe MALIS 21.3 WPM_T9.1: Data Science / Data Librarianship / IT-Praxis
+## Aufgabe MALIS 21.3 WPM_T9.1: Data Science / Data Librarianship / IT-Praxis
 
-## Beschreibung von datenintensiven und datenfokussierten Aktivitäten im eigenen Arbeitsalltag / in der eigenen Institution
+### Beschreibung von datenintensiven und datenfokussierten Aktivitäten im eigenen Arbeitsalltag / in der eigenen Institution
 
 **Aufgabenstellung**
 * Tragen Sie zusammen, welche Prozesse in Ihrer Institution datenintensiv und/oder datenfokussiert sind. Dies kann zum Beispiel die Pflege von Metadaten oder Forschungdatenmanagement sein.
