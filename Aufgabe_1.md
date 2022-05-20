@@ -19,6 +19,8 @@ Die IT-Abteilung der UB hat mehrere CronJobs (periodisch wiederkehrende Aufgaben
 
 In meinem Berufsalltag als Fachreferentin sind vor allem die Etat- und Revisionslisten ein wichtiges Werkzeug. Anhand der *Etatlisten* treffe ich **Kaufentscheidungen** und erstelle **Hochrechnungen** für die einzelnen Fachbereiche der TUK. Die *Revisionslisten* nutze ich vorrangig, um einen Überblick über **Ausleihzahlen** und **Aktualität** der Literatur zu bekommen. Daraus leite ich dann **Kaufentscheidungen** und **Aussonderungen** ab.
 
+Im Folgenden betrachte ich die **Revisionslisten** und meinen Umgang damit im Arbeitsalltag. Ich werde die Prozesse bei der Entscheidungsfindung für Neuerwerbungen und Aussonderungen beschreiben und aufzeigen, wie ich in diesem Zusammenhang mit den jeweiligen Daten umgehe. Zu jedem Punkt werde ich aufzeigen, wie diese Prozesse durch (selbstprogrammierte) Software automatisiert und dadurch vereinfacht werden können.
+
 
 ## Revisionslisten
 
@@ -40,27 +42,32 @@ Der Import erfordert einiges an Einstellungen und Nacharbeiten, um die Liste ans
 
 ##### Verbesserungsmöglichkeiten
 
-Eine potenzielle Verbesserungsmöglichkeit für die Revisionslisten liegt im Format der bereitgestellten CSV-Datei. Die einzelnen Schritte beim Import in Excel ließen sich vermeiden, wenn die Werte der CSV tabulatorgetrennt wären, die führenden Leerzeichen vor Zahlenangaben (bei Vormerkungen und Ausleihzahlen) gar nicht erst da wären und die Zeichenkodierung so wäre, dass Excel sofort etwas damit anfangen kann.
-
+Eine potenzielle Verbesserungsmöglichkeit für die Revisionslisten liegt im Format der bereitgestellten CSV-Datei. Die einzelnen Schritte beim Import in Excel ließen sich vermeiden, wenn die Werte der CSV tabulatorgetrennt wären, die führenden Leerzeichen vor Zahlenangaben (bei Vormerkungen und Ausleihzahlen) gar nicht erst da wären und die Zeichenkodierung so wäre, dass Excel sofort etwas damit anfangen kann.\
 Diese Punkte stehen auf der ToDo-Liste für das nächste zu programmierende Revisionslisten-Extraktionstool. Da die UB noch diesen Sommer von Aleph auf ALMA umsteigen wird, wird das aktuelle Tool nicht mehr angepasst werden.
+
+Die Konvertierung der Daten wäre am einfachsten mit Hilfe eines (z. B. Python-) Skripts zu bewerkstelligen. Die immer gleichen Abläufe der Konvertierung könnten hiermit automatisiert werden.
+
+Alternativ könnte auch auf die Konvertierung der Daten verzichtet und statt dessen direkt mit der CSV-Datei gearbeitet werden. Auf die Nutzung von Excel möchte ich aktuell jedoch nicht gänzlich verzichten, da die Nutzung der GUI auch Vorteile im Arbeitsablauf hat und eine explorative Analyse und Bearbeitung der Daten ermöglicht.
 
 
 ### Kauf von eBooks und Neuauflagen aufgrund hoher Ausleihzahlen
 
-Wird ein Medium oft ausgeliehen oder ist es sogar ständig vergriffen und wird daher oft vorgemerkt, müssen weitere Exemplare angeschafft werden.
+Wird ein Medium oft ausgeliehen oder ist es sogar ständig vergriffen und wird daher oft vorgemerkt, müssen weitere Exemplare oder eine eBook-Version angeschafft werden.
 
-Wie finde ich das heraus?
-- Anzahl der Vormerkungen in den letzten 2 Jahren
-- Ausleihzahlen im letzten Jahr
+Zur Identifikation betreffender Titel analysiere ich in regelmäßigen Abständen die Statistiken der mir zugeordneten Signaturengruppen. Ich schaue mir für alle Titel zum einen die Anzahl der Vormerkungen in den letzten 2 Jahren und zum anderen die Ausleihzahlen im letzten Jahr an. \
+Aktuell nutze ich dazu die in XLSX konvertierte Revisionsliste. Ich lasse mir die Titel erst nach Anzahl der Vormerkungen absteigend anzeigen, dann nach Ausleihzahlen absteigend. Identifiziere ich einen "beliebten" Titel, übertrage ich ihn in eine neue Tabelle, die ich dann zur Entscheidung über Neuanschaffungen nutze.
 
-Tendenz zu eBooks, da Digitalisierung
+Bei hohen Ausleihzahlen und vielen Vormerkungen wird, falls möglich, ein eBook angeschafft. Ansonsten werden ein oder mehrere Exemplare der neuesten Auflage der Printversion zugekauft. \
+Wird der Titel zwar nicht oder nur selten vorgemerkt, aber dennoch häufig ausgeliehen, deutet das darauf hin, dass zwar genügend Exemplare vorhanden sind, der Bedarf zur Nutzung des Titel aber hoch ist. Hier wird, sofern möglich, die Anschaffung eines eBooks in Erwägung gezogen.
 
 ##### Verbesserungsmöglichkeiten
 
 Zur Zeit überprüfe ich die Revisionsliste händisch auf "beliebte" Medien. Dabei wäre es möglich, diesen Prozess mit einer relativ einfachen Programmierung zu automatisieren.
 - Schwelle für Ausleihen im letzten Jahr festlegen
-- Schwelle für Vormerkungen (2J) festlegen
-- Bei Überschreiten eines der Werte wird eine Markierung gesetzt (Excel) oder eine Ausgabe erzeugt (Shell)
+- Schwelle für Vormerkungen der letzten zwei Jahre festlegen
+- Bei Überschreiten eines der Werte wird eine Markierung gesetzt (Excel, z. B. als Eintrag in einer neuen Spalte) oder eine Ausgabe erzeugt (Python, Shell)
+
+Das Skript würde idealerweise direkt mit der CSV-Datei arbeiten, nicht mit der XLSX-Datei. Eine Ausgabe des Ergebnisses als XLSX-Datei ist denkbar.
 
 
 ### Aussondern von ungenutzter und inaktueller Literatur
@@ -84,21 +91,6 @@ Bei der Aussonderung läuft es meist auf eine Individualentscheidung hinaus, in 
 Dennoch kann der Prozess auch hier vereinfacht oder abgekürzt werden. Anhand der oben genannten Kriterien Nr. 1 – 3 könnte eine Liste erstellt werden, die in bestimmten Zeitabständen überprüft und als Einstieg für Aussonderungsentscheidungen genutzt werden kann. Als Grundlage für die Programmierung kann eine angepasste Version der "beliebte Medien"-Liste dienen.
 
 
-## Etatlisten
+## Fazit
 
-Wird als HTML ausgeliefert.
-Wird in Excel weiterverarbeitet.
-Importprozess mit ähnlichen Hürden wie im Fall der Revisionslisten:
-- Zahlen haben "." statt "," als Dezimaltrenner
-- Excel macht ein Datum aus einstelligen Geldbeträgen :rage:
-
-### Hochrechnung von Fachbereichsetats
-
-Jedes Quartal fällig\
-Muss für jeden Fachbereich erstellt werden
-
-##### Verbesserungsmöglichkeiten
-
-Es sind die immer gleichen Schritte auszuführen, daher liegt eine Automatisierung durch ein Skript nahe.\
-Eine Auslieferung als CSV statt HTML wäre hilfreich, konnte aber bisher noch nicht umgesetzt werden.\
-Anpassung nach ALMA-Umstellung
+Es besteht viel Potenzial, die aktuell genutzten Prozesse mit Hilfe von (selbstprogrammierter) Software zu vereinfachen und zu beschleunigen. Der Vorteil hierbei läge zum einen im Zeitgewinn, da wiederkehrende, einfache Aufgaben automatisch erledigt würden. Zum anderen beugt ein solches Verfahren auch Fehlern durch menschliche Nutzende vor und liefert somit verlässliche Ergebnisse gleichbleibender Qualität.
