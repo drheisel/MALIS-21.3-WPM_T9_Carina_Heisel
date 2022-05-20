@@ -58,7 +58,7 @@ Zur Identifikation betreffender Titel analysiere ich in regelmäßigen Abstände
 Aktuell nutze ich dazu die in XLSX konvertierte Revisionsliste. Ich lasse mir die Titel erst nach Anzahl der Vormerkungen absteigend anzeigen, dann nach Ausleihzahlen absteigend. Identifiziere ich einen "beliebten" Titel, übertrage ich ihn in eine neue Tabelle, die ich dann zur Entscheidung über Neuanschaffungen nutze.
 
 Bei hohen Ausleihzahlen und vielen Vormerkungen wird, falls möglich, ein eBook angeschafft. Ansonsten werden ein oder mehrere Exemplare der neuesten Auflage der Printversion zugekauft. \
-Wird der Titel zwar nicht oder nur selten vorgemerkt, aber dennoch häufig ausgeliehen, deutet das darauf hin, dass zwar genügend Exemplare vorhanden sind, der Bedarf zur Nutzung des Titel aber hoch ist. Hier wird, sofern möglich, die Anschaffung eines eBooks in Erwägung gezogen.
+Wird der Titel zwar nicht oder nur selten vorgemerkt, aber dennoch häufig ausgeliehen, deutet das darauf hin, dass zwar genügend Exemplare vorhanden sind, der Bedarf zur Nutzung des Titels aber hoch ist. Hier wird, sofern möglich, die Anschaffung eines eBooks in Erwägung gezogen.
 
 ##### Verbesserungsmöglichkeiten
 
