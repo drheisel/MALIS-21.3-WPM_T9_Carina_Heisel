@@ -36,7 +36,7 @@ Als wichtigste Informationen sind hier zu nennen:
 - letztes Ausleih- und Rückgabedatum
 
 Die Informationen werden als CSV-Datei zur Verfügung gestellt. Um Sortier-, Filter- und Rechenfunktionen auf die Daten anwenden zu können, importiere ich die CSV zunächst in eine Excel-Tabelle, wandle sie also in eine XLSX um.
-Der Import erfordert einiges an Einstellungen und Nacharbeiten, um die Liste anschließend fehlerfrei weiterbearbeiten zu können. So sind die einzelnen Einträge z. B. nicht tabulatorgetrennt, sondern mit einer Tilde (~) separiert. Zudem sind Unmengen von Leerzeichen enthalten, die vorab entfernt werden müssen, da Zahlen ansonsten als Text fehlinterpretiert werden. Außerdem muss die Zeichenkodierung richtig eingestellt werden, um Umlaute korrekt wiederzugeben.
+Der Import erfordert einiges an Einstellungen und Nacharbeiten, um die Liste anschließend fehlerfrei weiterbearbeiten zu können. So sind die einzelnen Einträge z. B. nicht komma- oder tabulatorgetrennt, sondern mit einer Tilde (~) separiert. Zudem sind zahlreiche führende Leerzeichen enthalten, die vorab entfernt werden müssen, da Zahlen ansonsten als Text fehlinterpretiert werden. Außerdem muss die Zeichenkodierung richtig eingestellt werden, um Umlaute korrekt wiederzugeben.
 
 ##### Verbesserungsmöglichkeiten
 
