@@ -25,7 +25,7 @@ Im Folgenden betrachte ich die **Revisionslisten** und meinen Umgang damit im Ar
 ## Revisionslisten
 
 Eine Revisionsliste ist eine vollständige Liste des aktuellen Bestandes. Sie enthält alle physischen Medien einer Signaturengruppe mit zahlreichen zugehörigen Informationen.\
-Als wichtigste Informationen sind hier zu nennen:
+Als wichtigste **Informationen** sind hier zu nennen:
 - die eindeutige Signatur, die wie folgt aufgebaut ist: XXX aaa/bbb mit\
   XXX = Signaturengruppe (z. B. PHY für Physik)\
   aaa = Fachgruppe, Zahl zwischen 000 und 999\
@@ -37,7 +37,7 @@ Als wichtigste Informationen sind hier zu nennen:
 - Ausleihzahlen (insgesamt und in den letzten 1/2/5 Jahren)
 - letztes Ausleih- und Rückgabedatum
 
-Die Informationen werden als CSV-Datei zur Verfügung gestellt. Um Sortier-, Filter- und Rechenfunktionen auf die Daten anwenden zu können, importiere ich die CSV zunächst in eine Excel-Tabelle, wandle sie also in eine XLSX um.
+Die Informationen werden als CSV-Datei zur Verfügung gestellt. Um Sortier-, Filter- und Rechenfunktionen auf die Daten anwenden zu können, importiere ich die CSV zunächst in eine Excel-Tabelle, wandle sie also in eine XLSX um. \
 Der Import erfordert einiges an Einstellungen und Nacharbeiten, um die Liste anschließend fehlerfrei weiterbearbeiten zu können. So sind die einzelnen Einträge z. B. nicht komma- oder tabulatorgetrennt, sondern mit einer Tilde (~) separiert. Zudem sind zahlreiche führende Leerzeichen enthalten, die vorab entfernt werden müssen, da Zahlen ansonsten als Text fehlinterpretiert werden. Außerdem muss die Zeichenkodierung richtig eingestellt werden, um Umlaute korrekt wiederzugeben.
 
 ##### Verbesserungsmöglichkeiten
@@ -62,7 +62,8 @@ Wird der Titel zwar nicht oder nur selten vorgemerkt, aber dennoch häufig ausge
 
 ##### Verbesserungsmöglichkeiten
 
-Zur Zeit überprüfe ich die Revisionsliste händisch auf "beliebte" Medien. Dabei wäre es möglich, diesen Prozess mit einer relativ einfachen Programmierung zu automatisieren.
+Zur Zeit überprüfe ich die Revisionsliste händisch auf "beliebte" Medien. Dabei wäre es möglich, diesen Prozess mit einer relativ einfachen Programmierung zu automatisieren. \
+Ein Skript könnte dazu folgende Punkte abfragen bzw. ausführen:
 - Schwelle für Ausleihen im letzten Jahr festlegen
 - Schwelle für Vormerkungen der letzten zwei Jahre festlegen
 - Bei Überschreiten eines der Werte wird eine Markierung gesetzt (Excel, z. B. als Eintrag in einer neuen Spalte) oder eine Ausgabe erzeugt (Python, Shell)
@@ -72,8 +73,8 @@ Das Skript würde idealerweise direkt mit der CSV-Datei arbeiten, nicht mit der 
 
 ### Aussondern von ungenutzter und inaktueller Literatur
 
-Das Aussondern von ungenutzter und inaktueller Literatur ist etwas komplizierter gelagert als im Fall der beliebten Medien.\
-Kriterien, die hierzu herangezogen werden, sind:
+Das Aussondern von ungenutzter und inaktueller Literatur ist etwas komplizierter gelagert als im Fall der beliebten Medien. Der Sucheinstieg findet auch hier in der Revisionsliste statt. \
+Mögliche Kriterien, die bei der Aussonderung herangezogen werden, sind:
 1. keine Ausleihen in den letzten 5 Jahren
 2. keine Vormerkungen in den letzten 2 Jahren
 3. letzte Rückgabe länger als 10 Jahre her
@@ -84,7 +85,7 @@ Außerdem sind folgende Punkte zu beachten:
 - Welche Auflagen haben wir von dem Medium? Wie viele Jahre liegen zwischen der aktuellsten und den vorherigen Auflagen?
 - Steht das Medium im Semesterapparat und ist deshalb auf jeden Fall vorzuhalten?
 
-Bei der Aussonderung läuft es meist auf eine Individualentscheidung hinaus, in die zudem auch Erfahrungswissen und ggf. Rücksprachen mit Lehrstühlen einfließen. Hier ist eine Automatisierung schwer bis gar nicht umsetzbar.
+Bei der Aussonderung läuft es meist auf eine Individualentscheidung hinaus, in die zudem auch Erfahrungswissen und ggf. Rücksprachen mit Lehrstühlen einfließen. Eine vollständige Automatisierung ist hier nur schwer bis gar nicht umsetzbar.
 
 ##### Verbesserungsmöglichkeiten
 
@@ -93,4 +94,4 @@ Dennoch kann der Prozess auch hier vereinfacht oder abgekürzt werden. Anhand de
 
 ## Fazit
 
-Es besteht viel Potenzial, die aktuell genutzten Prozesse mit Hilfe von (selbstprogrammierter) Software zu vereinfachen und zu beschleunigen. Der Vorteil hierbei läge zum einen im Zeitgewinn, da wiederkehrende, einfache Aufgaben automatisch erledigt würden. Zum anderen beugt ein solches Verfahren auch Fehlern durch menschliche Nutzende vor und liefert somit verlässliche Ergebnisse gleichbleibender Qualität.
+Es besteht viel Potenzial, die aktuell angewandten Prozesse mit Hilfe von (selbstprogrammierter) Software zu vereinfachen und zu beschleunigen. Der Vorteil hierbei liegt zum einen im Zeitgewinn, da wiederkehrende, einfache Aufgaben automatisch erledigt werden. Zum anderen beugt ein solches Verfahren auch (menschlichen) Fehlern vor und liefert somit verlässliche Ergebnisse gleichbleibender Qualität. Die Prozesse können so insgesamt nachhaltiger gestaltet werden.
