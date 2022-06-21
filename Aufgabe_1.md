@@ -29,7 +29,7 @@ Als wichtigste **Informationen** sind hier zu nennen:
 - die eindeutige Signatur, die wie folgt aufgebaut ist: XXX aaa/bbb mit\
   XXX = Signaturengruppe (z. B. PHY für Physik)\
   aaa = Fachgruppe, Zahl zwischen 000 und 999\
-	bbb = fortlaufende Nummer, Zahl zwischen 000 und 999
+  bbb = fortlaufende Nummer, Zahl zwischen 000 und 999
 - Autor*in, Titel
 - Auflage und ISBN
 - Erscheinungsjahr und Jahr des Zugangs
